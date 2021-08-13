@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <title>Login</title>
+</head>
+
+<body>
+    
+    <form action="login_check.php" method="POST" >
+    <div class="khung_ngoai">
+        <div class="khung_sign">
+            <div class="khung_singin">
+                <h4 class="text signin">Sign in</h4>
+            </div>
+            <div class="khung_singup">
+                <button id="btn_signup" class="btn_singup">
+                    Sign up
+                </button>
+            </div>
+        </div>
+        <div class="khung_lable_user">
+            <label class="label">Your user name</label>
+        </div>
+        <div class="khung_input_user">
+            <input name="user" class="input_field" placeholder="User name" type="user">
+        </div>
+        <div class="khung_lable_pass">
+            <label class="label">Your password</label>
+            <a id="text_forgot" class="text forgot" href="#">Forgot?</a>
+        </div>
+        <div class="khung_input_pass">
+            <input name="password" class="input_field" placeholder="******" type="password">
+        </div>
+        <div class="khung_check_save_pass">
+            <label class="khung_label_save_pass"> 
+                <input type="checkbox"> 
+                Save password 
+            </label>
+        </div>
+        <div class="khung_login">
+            <button type="submit" name="submit" id="btn_login" class="btn_login">
+                Login
+            </button>
+        </div>
+    </div>
+    <script src="all.js"></script>
+    </form>
+</body>
+
+</html>
